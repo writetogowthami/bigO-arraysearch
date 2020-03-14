@@ -7,10 +7,11 @@ If the array is [3, 5, 7] return false
 
 ## Soulution Algorithm: 
 Task: Determine the double of each number in the array, then Check to the see if the array includes any of the doubles.
-### One of the efficient approach to use some()
+#### One of the efficient approach to use some()
 i. Use some() to search the array and includes to match the values in the array 
-### Second approach is to use Hash maps with keys as array element values
+#### Second approach is to use Hash maps with keys as array element values
 i. Use Hash tables with maps - make keys for new hash table with numbers in array
+
 ii. Check the keys in hash table against current number to see if there is a key that is already double or half of our current number and return true or false accordingly
 Big O - O(n) is 3
 
